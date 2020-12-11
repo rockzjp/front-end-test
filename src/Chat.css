@@ -1,0 +1,167 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+  .Chat {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .logIn {
+    width: 600px;
+    height: 450px;
+    border: 10px solid #AE3034;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+  }
+  
+  .logIn input{
+    margin: 10px;
+    width: 200px;
+    height: 40px;
+    border: 2px solid #AE3034;
+    background-color: transparent;
+    padding-left: 10px;
+    color: #000000;
+    font-size: 15px;
+  }
+  
+  .logIn input:focus{
+    outline: none;
+  }
+  
+  .logIn button{
+  
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #AE3034;
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 45px;
+  }
+  
+  .logIn button:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 2px solid #AE3034;
+    color: #AE3034
+  }
+  
+  .chatContainer {
+    width: 600px;
+    height: 450px;
+    border: 10px solid #AE3034;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    
+  }
+  
+  .chatContainer .messages {
+    flex: 80%;
+    width: 100%;
+    height: 500px;
+    padding-left: 20px;
+    overflow-y:scroll;
+  }
+  
+  .chatContainer .messageInputs {
+    flex: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid #AE3034; 
+  }
+  
+  .chatContainer .messageInputs input{
+    flex: 80%;
+    height: calc(100% -5px);
+    border: none;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+  
+  .chatContainer .messageInputs button{
+    flex: 20%;
+    height: 80%;
+    background-color: #AE3034;
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin: 7px;
+    
+  }
+  
+  .chatContainer .messageInputs .button{
+    flex: 20%;
+    height: 60%;
+    background-color:#ffffff;
+    border: none;
+    color: #0000ff;
+    font-size: 18px;
+    margin: 10px;
+    align-items: center;
+    margin-top: 18px;
+  }
+  
+  p1:hover{
+    color: red
+  }
+  
+  .chatContainer .messageInputs button:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 2px solid #AE3034;
+    color: #AE3034;
+    
+  }
+  
+  
+  
+  
+  .messageContainer {
+    display: flex;
+    width: calc(100% - 30px);
+  }
+  
+  .messageContainer h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+  }
+  
+  #You{
+    justify-content: flex-start;
+  }
+  
+  #Other {
+    justify-content: flex-end;
+  }
+  
+  #Other .messageIndividual {
+    background-color: #919191;
+    color: #000000;
+  }
+  .messageIndividual {
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    background-color: #000000;
+    opacity: 0.9;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    margin-top: 20px;
+  
+  }
