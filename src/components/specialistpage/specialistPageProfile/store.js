@@ -1,32 +1,36 @@
-export const profilecontenthead =[
-    'username', 'position', 'credential', 'phoneno', 'project'
+export const myfile = [
+  'username', 'phone', 'workHour', 'location', 'supervisor'
 ]
 
-
-export const profilecontentinside = [
-    {
-        id: 'username',
-        title: 'Tom',
-        profilecontenthead: 'username'
-    },
-    {
-        id: 'position',
-        title: 'Supervisor',
-        profilecontenthead: 'position'
-    },
-    {
-        id: 'credential',
-        title: 'High',
-        profilecontenthead: 'credential'
-    },
-    {
-        id: 'phoneno',
-        title: '1232342345',
-        profilecontenthead: 'phoneno'
-    },
-    {
-        id: 'project',
-        title: 'AM123',
-        profilecontenthead: 'project'
-    }
+export const myinfos = [
+  {
+    id: 'name',
+    title: 'John Smith',
+    description: 'new user name uploaded',
+    myfile: 'username'
+  },
+  {
+    id: 'position',
+    title: '657-000-1234',
+    description: 'cell phone',
+    myfile: 'phone'
+  },
+  {
+    id: 'workhour',
+    title: '45 hours',
+    description: 'till yesterday',
+    myfile: 'workHour'
+  },
+  {
+    'id': 'location1',
+    title: 'location1',
+    description: '34 Finch street. unit 1',
+    myfile: 'location'
+  },
+  {
+    id: 'super',
+    title: 'Tom H',
+    description: 'location1 supervisor',
+    myfile: 'supervisor'
+  },
 ]
