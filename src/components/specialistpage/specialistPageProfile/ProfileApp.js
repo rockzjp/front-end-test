@@ -13,7 +13,7 @@ export default class ProfileApp extends Component {
 
 
     getMyinfosByMyfile() {
-        const initExercises = myfile.reduce((myinfos, category) => ({
+        const initMyinfos = myfile.reduce((myinfos, category) => ({
                 ...myinfos,
                 [category]: []
         }), {})
@@ -26,7 +26,7 @@ export default class ProfileApp extends Component {
               
 
               return myinfos
-            }, initExercises)
+            }, initMyinfos)
         )
     }
 
